@@ -12,6 +12,10 @@ import target1 from './assets/target/target1.png';
 import target2 from './assets/target/target2.png';
 import target3 from './assets/target/target3.png';
 import writer from './assets/target/writer.jpg';
+import writer1 from './assets/writer1.png';
+import comment1 from './assets/testimony/1.png';
+import comment2 from './assets/testimony/2.png';
+import comment3 from './assets/testimony/3.png';
 import cover from './assets/benefit/tailwind-cover.png';
 import socmed from './assets/benefit/socmed-statistic.png';
 import booksummary from './assets/tailwind-book.png';
@@ -28,6 +32,7 @@ import { FiArrowRightCircle } from 'react-icons/fi';
 import { AiOutlineLine } from 'react-icons/ai';
 import { FiDownload } from 'react-icons/fi';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
+import { BsXCircleFill, BsFillCheckCircleFill } from 'react-icons/bs';
 
 function App() {
   return (
@@ -386,6 +391,69 @@ function App() {
         <div className='overview'>
           <img src={booksummary} alt='booksummary' />
           <div className='stackPage'>
+            {/* <svg
+              width='120'
+              height='121'
+              viewBox='0 0 120 121'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <g filter='url(#filter0_d_2_260)'>
+                <circle cx='60' cy='45.9753' r='30' fill='#00BAC7' />
+                <path
+                  d='M53 45.9753H67'
+                  stroke='white'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                />
+                <path
+                  d='M60 38.9753L67 45.9753L60 52.9753'
+                  stroke='white'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                />
+              </g>
+              <defs>
+                <filter
+                  id='filter0_d_2_260'
+                  x='0'
+                  y='0.975342'
+                  width='120'
+                  height='120'
+                  filterUnits='userSpaceOnUse'
+                  color-interpolation-filters='sRGB'
+                >
+                  <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                  <feColorMatrix
+                    in='SourceAlpha'
+                    type='matrix'
+                    values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+                    result='hardAlpha'
+                  />
+                  <feOffset dy='15' />
+                  <feGaussianBlur stdDeviation='15' />
+                  <feComposite in2='hardAlpha' operator='out' />
+                  <feColorMatrix
+                    type='matrix'
+                    values='0 0 0 0 0 0 0 0 0 0.729412 0 0 0 0 0.780392 0 0 0 0.45 0'
+                  />
+                  <feBlend
+                    mode='normal'
+                    in2='BackgroundImageFix'
+                    result='effect1_dropShadow_2_260'
+                  />
+                  <feBlend
+                    mode='normal'
+                    in='SourceGraphic'
+                    in2='effect1_dropShadow_2_260'
+                    result='shape'
+                  />
+                </filter>
+              </defs>
+            </svg> */}
+
             <img src={page1} alt='page1' />
             <img src={page2} alt='page2' />
             <img src={page3} alt='page3' />
@@ -398,6 +466,213 @@ function App() {
         </div>
         <p>Halaman 1 dari 257</p>
       </div>
+
+      <div className='price'>
+        <div className='priceText'>
+          <h5>HARGA BUKU</h5>
+          <h1>Kamu dapat membeli buku fisik atau buku elektronik untuk dibaca di perangkat kamu</h1>
+          <p>
+            Dilarang memperjualbelikan atau memperbanyak tanpa seizin penulis. Hak cipta dilindungi
+            undang-undang.
+          </p>
+        </div>
+        <div className='whatYouGet'>
+          <div className='priceBox'>
+            <h5>Buku Digital</h5>
+            <h1>Rp100.000</h1>
+            <ul>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Buku lengkap
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Akses secara digital
+              </li>
+              <li>
+                <BsXCircleFill style={{ color: '#F52E52', marginRight: '.5rem' }} />
+                Buku fisik
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Mendapat pembaruan
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Konsultasi
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Dapat diunduh
+              </li>
+            </ul>
+            <p>Beli Sekarang</p>
+          </div>
+          <div className='priceBox'>
+            <h5>Buku Fisik</h5>
+            <h1>Rp185.000</h1>
+            <ul>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Buku lengkap
+              </li>
+              <li>
+                <BsXCircleFill style={{ color: '#F52E52', marginRight: '.5rem' }} />
+                Akses secara digital
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Buku fisik
+              </li>
+              <li>
+                <BsXCircleFill style={{ color: '#F52E52', marginRight: '.5rem' }} />
+                Mendapat pembaruan
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Konsultasi
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Dapat diunduh
+              </li>
+            </ul>
+            <p>Beli Sekarang</p>
+          </div>
+          <div className='priceBox'>
+            <h5>Buku Digital + Fisik</h5>
+            <h1>Rp250.000</h1>
+            <ul>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Buku lengkap
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Akses secara digital
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Buku fisik
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Mendapat pembaruan
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Konsultasi
+              </li>
+              <li>
+                <BsFillCheckCircleFill style={{ color: '#20D27D', marginRight: '.5rem' }} />
+                Dapat diunduh
+              </li>
+              <p>Beli Sekarang</p>
+            </ul>
+          </div>
+        </div>
+        <p>*Buku digital akan dikirimkan ke alamat email kamu</p>
+        <p>*Buku fisik dikirim 7 hari setelah pemesanan</p>
+      </div>
+
+      <div className='writerGreeting'>
+        <img src={writer1} alt='' />
+        <div className='greeting'>
+          <h5>PENULIS BUKU</h5>
+          <h1>Tak kenal maka tak kenal. Berkenalan dengan penulis buku ini</h1>
+          <p>
+            “Halo, saya Nauval. Mungkin nama ini terdengar asing di telinga kamu. Namun, kedepannya
+            saya berharap nama ini tidak lagi terdengar asing di telinga kamu sebagai orang yang
+            rajin berbagi hal-hal baik untuk masyarakat, khususnya dalam ilmu komputer. Saya seorang
+            web developer yang masuk kategori apa-aja-dikerjain-selagi-ada-manfaat-nya. Meski
+            begitu, saya lebih senang fokus di front-end development, karena --menurut saya-- ini
+            lebih sederhana saja. Di front-end development pada dasarnya hanya perlu menguasai tiga
+            bahasa: HTML, CSS, dan JavaScript. Sudah jelas ini sederhana, yang bikin ribet itu kamu
+            sendiri, sudah tau kamu cocoknya pake jQuery, malah maksa pake React.”
+          </p>
+        </div>
+      </div>
+      <div className='testimony'>
+        <div className='testimonyIntro'>
+          <div className='testi'>
+            <p
+              style={{ display: 'flex', alignItems: 'center', color: '#00BAC7', fontSize: '14px' }}
+            >
+              <AiOutlineLine /> TESTIMONIAL
+            </p>
+            <h1>Apa kata orang-orang yang membaca buku ini?</h1>
+          </div>
+          <p>
+            Kalo seandainya kamu belum percaya dengan buku ini maka tidak apa-apa, karena yang patut
+            kamu percayai adalah Tuhan. Tapi, mungkin beberapa ulasan ini bisa membangkitkan
+            hasratmu untuk membeli buku ini.
+          </p>
+        </div>
+        <div className='testiGroup'>
+          <div className='testiBox'>
+            <p>
+              “Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari
+              instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”
+            </p>
+            <div className='commenterDetails'>
+              <div className='commenter'>
+                <img src={comment1} alt='comment1' />
+              </div>
+              <div className='commenterDetail'>
+                <h5>Ahmad Saugi</h5>
+                <p>Mahasiswa</p>
+              </div>
+            </div>
+          </div>
+          <div className='testiBox'>
+            <p>
+              “Terimakasih atas bukunya mas. Sangat membantu saya yang masih pemula dalam proses
+              memahami taildwindcss. Isinya cukup lengkap dan detail.”
+            </p>
+            <div className='commenterDetails'>
+              <div className='commenter'>
+                <img src={comment2} alt='comment2' />
+              </div>
+              <div className='commenterDetail'>
+                <h5>Dedik Sugiharto</h5>
+                <p>Front-end Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div className='testiBox'>
+            <p>
+              “Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok
+              untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”
+            </p>
+            <div className='commenterDetails'>
+              <div className='commenter'>
+                <img src={comment3} alt='comment3' />
+              </div>
+              <div className='commenterDetail'>
+                <h5>Lutfi Hanafiah Ramadhan</h5>
+                <p>IT Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='buyIt'>
+        <h5>BELI BUKU</h5>
+        <h1>Anda ingin segera memesan buku ini?</h1>
+        <p>Otak Kita butuh asupan nutrisi juga, tidak hanya perut saja. </p>
+        <div>
+          <div className='sale'>
+            <div className='saleDetail'>
+              <h3>SUDAH TERJUAL</h3>
+              <h2>501,234+</h2>
+            </div>
+            <button>
+              Beli Sekarang <FiArrowRightCircle style={{ marginLeft: '1rem' }} />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className='footer'></div>
     </div>
   );
 }
